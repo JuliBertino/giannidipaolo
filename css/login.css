@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Noto-Serif';
+    src: url(/fuentes/Noto_Serif/NotoSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Libre-B';
+    src: url(/fuentes/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ReadexPro';
+    src: url(/fuentes/Readex_Pro/ReadexPro-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    font-size: 16px;
+    font-family: 'Libre-B';
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    background: white;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'ReadexPro';
+    font-size: 1.3em;
+    width: 80%;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.title .divisor {
+    width: 2px;
+    height: 40px;
+    background: white;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 320px;
+    height: 30px;
+    padding: 7px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+button {
+    width: 50%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'ReadexPro';
+}
+
+ small {
+    text-align: center;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.error {
+    color: red;
+}
+
+.succes {
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo-name {
+    width: 50%;
+    height: 30%;
+}
