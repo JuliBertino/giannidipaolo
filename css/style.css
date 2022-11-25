@@ -643,14 +643,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background: pink;
+    background-image: url(./fondo.jpg);
     padding: 30px 0;
 }
 
 .contacto h2 {
-    font-size: 18px;
+    font-size: 2em;
     text-transform: uppercase;
     margin: 15px 0 15px 45px;
+    font-family: 'ReadexPro';
 }
 
 .info {
@@ -670,36 +671,38 @@ header {
 }
 
 .contacto form input {
-    border: none;
-    outline: none;
-    width: 320px;
+    width: 150%;
     height: 30px;
     padding: 7px;
+    border: 0.1em solid black;
+    font-family: 'Libre-B';
 }
 
 .contacto form input::placeholder {
-    font-size: 13px;
+    font-size: 1em;
     color: #000;
 }
 
 .contacto #enviar {
-    width: 130px;
+    width: 50%;
     height: 35px;
     align-self: center;
     background: #000;
     color: #fff;
     cursor: pointer;
     margin-top: 20px;
+    font-family:'ReadexPro';
+    font-size: 1.2em;
 }
 
 .contacto textarea {
-    width: 320px;
+    width: 150%;
     height: 120px;
-    border: none;
+    border: 0.1em solid black;
     outline: none;
     padding: 7px;
     color: #000;
-    resize: none;
+    font-family: 'Libre-B';
 }
 
 .contacto textarea::placeholder {
@@ -720,10 +723,11 @@ header {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1.2px;
+    color: white;
 }
 
 footer {
-    background: #313131;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -739,17 +743,18 @@ footer {
 }
 
 .text p {
-    color: #C1C1C1;
-    font-size: 13px;
+    color: black;
+    font-size: 1em;
     letter-spacing: 1.2px;
     font-weight: 500;
+    font-family:'ReadexPro';
 }
 
 .redes {
     display: flex;
     gap: 10px;
     font-size: 20px;
-    color: #C1C1C1;
+    color: black;
 }
 
 .redes i {
